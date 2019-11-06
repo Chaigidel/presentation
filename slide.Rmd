@@ -1,0 +1,37 @@
+---
+title: ""
+author: Chaigidel
+date: \today
+institute: 效实中学
+output:
+  beamer_presentation:
+    keep_tex: yes
+    theme: metropolis
+    latex_engine: xelatex
+    slide_level: 4
+    incremental: no
+fontsize: 12pt
+aspectratio: 169
+classoption: compress
+header-includes:
+  \usepackage{tikz}
+  \usepackage{fontspec}
+  \setmainfont{Latin Modern Math}
+  \setsansfont{DejaVu Sans}
+  \setmonofont{Consolas}
+  \usepackage{xeCJK}
+  \setCJKmainfont{Noto Sans CJK SC}
+  \setCJKmonofont{Noto Sans Mono CJK SC}
+  \setCJKsansfont{Noto Sans CJK SC}
+  \useoutertheme[subsection=false]{miniframes}
+  \usepackage{etoolbox}
+  \makeatletter
+  \patchcmd{\slideentry}{\advance\beamer@tempdim by -.05cm}{\advance\beamer@tempdim by\beamer@vboxoffset\advance\beamer@tempdim by\beamer@boxsize\advance\beamer@tempdim by 1.2\pgflinewidth}{}{}
+  \patchcmd{\slideentry}{\kern\beamer@tempdim}{\advance\beamer@tempdim by 2pt\advance\beamer@tempdim by\wd\beamer@sectionbox\kern\beamer@tempdim}{}{}
+  \makeatother
+  \setbeamercolor{section in head/foot}{fg=white, bg=mDarkTeal}
+  \setbeamercolor{subsection in head/foot}{fg=white, bg=mDarkTeal}
+  \usepackage{unicode-math}
+  \setmathfont{Latin Modern Math}
+  \usepackage{ulem}
+---
