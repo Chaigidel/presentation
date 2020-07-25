@@ -1,7 +1,6 @@
 ---
 author: Chaigidel
 title: "矩阵初步"
-date: \today
 institute: 效实中学
 output:
   beamer_presentation:
@@ -32,18 +31,6 @@ header-includes: |
   \setmathfont{Latin Modern Math}
   \usepackage{ulem}
 ---
-
-# 乱七八糟
-
-打算出一道矩阵题
-
-然后去搜资料
-
-发现矩阵比我想象得神奇
-
-于是就肝出来了
-
-题都没做，全程口胡
 
 # 矩阵基础
 
